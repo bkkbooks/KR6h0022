@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR6h0022/v1
+canonical_location: https://kanripo.org/bkk/KR6h0022/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 百千頌大集經地藏菩薩請問法身讚
+  identifiers:
+    alt_id:
+    - T13n0413
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T13/T13n0413.xml
+    old_id: T13n0413
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6h0022_000.yaml, hash: 'sha256:1570fce005522b09bf848de620e0aaf6ba21ae77a6f75793282184eea340715a'}
+  - {seq: 1, filename: KR6h0022_001.yaml, hash: 'sha256:789e600a6506bb364525dc95c23ca28f9b6e2cc18a8e3b9141bf67793bf54798'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6h0022_001.markers.yaml, hash: 'sha256:fe89b0b4b883c998b1214a987364a3f021685ec4065d314ac584f356e449c58c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6h0022_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2554
+  label: '百千頌大集經地藏菩薩請問法
+
+    身讚'
+  type: juan
+  level: 1
+hash: sha256:7559f032450ac17c4eb2615adf4d5f9c7ee58ef0c014a287dd328f3aa38a94a4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
