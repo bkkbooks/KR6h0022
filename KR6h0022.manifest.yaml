@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6h0022/v1
 canonical_location: https://kanripo.org/bkk/KR6h0022/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 百千頌大集經地藏菩薩請問法身讚
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6h0022_000.yaml, hash: 'sha256:1570fce005522b09bf848de620e0aaf6ba21ae77a6f75793282184eea340715a'}
-  - {seq: 1, filename: KR6h0022_001.yaml, hash: 'sha256:ac41c717a7197e0bcfe439f3cfb2a4e86bd3ecb67d5e4264fc3bcd74dc807ff5'}
+  - {seq: 1, filename: KR6h0022_001.yaml, hash: 'sha256:5385857c9561e52982fb86d00582f1b35836da259d25f5ed239dac1f420c8e2c'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6h0022_000.markers.yaml, hash: 'sha256:8be956553454a8ad57082ef446ba79cedb3bfda2fdc3f0268fb4f761ea163553'}
-  - {seq: 1, role: markers, filename: assets/KR6h0022_001.markers.yaml, hash: 'sha256:6a7f398288aba23d4b8c930ae3ee2d2345a41eb43920d5b477375a03b9ffb4c7'}
+  - {seq: 1, role: markers, filename: assets/KR6h0022_001.markers.yaml, hash: 'sha256:d6ea3b72625fdc02328263456683dacb535ec8f07d300cb2ed46732815b71770'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,4 +48,7 @@ table_of_contents:
     身讚'
   type: juan
   level: 1
-hash: sha256:f07147bf9daf99c15899c563a72f01db679434111fd55d8840ec84b0fa277e45
+hash: sha256:881f4e1d870c17d690c3906161e7f1825b45ba6c515591f6ff0721f0712c4f84
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
